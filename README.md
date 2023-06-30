@@ -11,7 +11,7 @@ rails g scaffold post title body:text
 rails db:migrate
 
 docker build . -t rails_app
-docker run -d -p 3001:3001 --network rails rails_app
+docker run -d -p 3000:3000 --network rails rails_app
 ```
 
 # Vite Commands
